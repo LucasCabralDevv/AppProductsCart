@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_branco"/>
+
+    <item android:id="@+id/menu_seachView_principal"
+        android:title="Search"
+        android:icon="@drawable/ic_search_branco"
+        android:queryHint="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+</menu>
